@@ -28,12 +28,21 @@ header{
 p{
 	font-style: initial;
 	font-family: cursive;
+	font-size: 15px;
 }
 
 h2{
 	font-size: 30 px;
 }
 
+section{
+	text-align: center;
+	background: #cfe7e9; /* Old browsers */
+background: -moz-linear-gradient(45deg, #cfe7e9 0%, #aadbde 17%, #61c5c7 50%, #3abec2 51%, #42d6d1 59%, #4cf0e0 71%, #3ac2be 84%, #26828c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #cfe7e9 0%,#aadbde 17%,#61c5c7 50%,#3abec2 51%,#42d6d1 59%,#4cf0e0 71%,#3ac2be 84%,#26828c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #cfe7e9 0%,#aadbde 17%,#61c5c7 50%,#3abec2 51%,#42d6d1 59%,#4cf0e0 71%,#3ac2be 84%,#26828c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7e9', endColorstr='#26828c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
 footer{
 	text-align: center;
