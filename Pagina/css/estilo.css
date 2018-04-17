@@ -1,0 +1,86 @@
+body{
+	background:black;
+}
+  
+#destacado {
+	width: 900px;
+ border: solid blue;
+  border-top-width: 6px;
+  border-left-width: 8px;
+}
+#dest { color: blue; }
+ 
+#banner h1,h2,h3{
+	color: white;
+	font-family: Cooper Black;	
+ }
+ 
+ #contenedor{
+	 background:white;
+	 height:1250px;
+	 width:950px;
+	 margin-right:auto;
+	 margin-left:auto;
+ }
+
+ header,#banner{
+	  background:white;
+	 height:60px;
+	 width:950px;
+	 
+	 	   }
+		   
+		  
+#banner{
+	 background:#0c096b;
+	 height:260px;
+	 text-align: center;
+	  }
+			   
+			 #banner #escudo {
+				 
+					
+					display:inline-block;
+					vertical-align:top
+				}
+
+				#banner #presentacion {
+				 					
+					display:inline-block;
+					vertical-align:top
+			
+				}
+
+
+	 #pelota{
+		background:#0c052b;
+		height:400px;
+		width:400px;
+		margin:auto;
+	 }
+	
+		 #alrededor{
+			background:#0c058b;
+			margin:left;
+		}
+#integrantes {
+	background:#a1bcc4;
+		height:400px;
+		width:920px;
+		margin:auto;
+	  
+}
+
+p{
+	color: white;
+	font-family: Cooper Black;
+font-size:16px;	
+}
+
+ #integrantes  article{
+	height:200px;
+	width:290px;
+	background:#a1b892;
+	display:inline-block;
+	vertical-align:top
+}

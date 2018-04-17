@@ -1,0 +1,106 @@
+
+body{
+background-image: url(img/fondito.jpg); 
+}
+
+
+h1 {
+  font-size: 85px;
+  color: #33CCFF;
+ font-family: 'Bangers', cursive;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  color:  #33CCFF
+  }
+  
+  h3{
+    font-family: 'Galindo Regular', cursive;
+  font-size: 20px;
+  color:  #33CCFF
+  }
+  
+  h4{
+  font-size: 14px;
+  color:  #33CCFF
+  }
+  h5{
+    margin: 50px;
+    height: 150px;
+
+  }
+
+  
+.marco_foto{
+  position: relative;
+  width: 195px;
+  border: 3px solid #FF0000;
+}
+.borde{
+  position: relative;
+  width: 200px;
+  
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?i226ha');
+  src:  url('fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?i226ha') format('truetype'),
+    url('fonts/icomoon.woff?i226ha') format('woff'),
+    url('fonts/icomoon.svg?i226ha#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .menuCSS3 a {
+    display: block;
+    padding: 1em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+  }
+  .menuCSS3 a:hover {
+    background-color: #CC673B;
+  }
+  .menuCSS3 ul li ul {
+    display: none;
+  }
+  .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+  }
